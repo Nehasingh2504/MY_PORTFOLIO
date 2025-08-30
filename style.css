@@ -55,16 +55,17 @@ nav .nav-links a:hover {
     gap: 40px;
     align-items: center;
 }
+.aboutphoto {
+  text-align: center; /* makes sure image is centered */
+}
 
 .aboutphoto img {
-    object-fit: contain;
-    overflow: hidden;
-    width: 60%;
-    height: 100%;
-    border-radius: 20%;
-    display: block;       /* make it a block element */
-    margin: 0 auto;       /* centers horizontally */
-    box-shadow: 3px 3px 5px 3px rgba(241, 111, 3, 0.995) ;
+  width: 60%;
+  max-width: 300px;   /* prevents it from becoming too large */
+  height: auto;
+  border-radius: 20%;
+  display: inline-block;
+  box-shadow: 3px 3px 5px 3px rgba(241, 111, 3, 0.8);
 }
 
 /* HERO SECTION */
