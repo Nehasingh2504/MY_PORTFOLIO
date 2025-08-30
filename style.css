@@ -174,12 +174,12 @@ h2 {
 }
 
 /* CONTACT */
-.contact_icon{
+.icon{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
 }
-.contact_icon img{
+.icon img{
     width: 40%;
     animation: item_ani 2s ease infinite;
 }
